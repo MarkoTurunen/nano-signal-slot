@@ -6,7 +6,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project(NanoSignalSlot VERSION 2.0.1 LANGUAGES CXX)
 
-add_library(nano-signal-slot ALIAS NanoSignalSlot INTERFACE)
+add_library(nano-signal-slot INTERFACE)
 
 target_compile_features(nano-signal-slot INTERFACE cxx_std_${CMAKE_CXX_STANDARD})
 
